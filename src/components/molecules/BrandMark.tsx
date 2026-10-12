@@ -8,14 +8,14 @@ export default function BrandMark({
 }) {
   return (
     <span className="inline-flex items-center gap-2">
-      {/* <span
+      <span
         className={cn(
           "inline-flex size-8 items-center justify-center rounded-md",
           inverted ? "bg-white text-brand-800" : "bg-brand-700 text-white",
         )}
       >
         <TrainFront aria-hidden="true" className="size-5" />
-      </span> */}
+      </span>
       <span
         className={cn(
           "text-lg font-semibold tracking-tight",

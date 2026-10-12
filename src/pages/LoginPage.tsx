@@ -54,7 +54,7 @@ export default function LoginPage() {
   return (
     <>
       <h1 className="text-2xl font-semibold text-slate-900">Log in</h1>
-      {/* <p className="mt-1 text-sm text-slate-600">
+      <p className="mt-1 text-sm text-slate-600">
         New to RailBook?{" "}
         <Link
           to="/signup"
@@ -62,7 +62,7 @@ export default function LoginPage() {
         >
           Create an account
         </Link>
-      </p> */}
+      </p>
 
       <form
         onSubmit={handleSubmit(onSubmit)}
